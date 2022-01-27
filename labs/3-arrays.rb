@@ -14,3 +14,19 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+#my list
+my_list = ["milk", "eggs", "bacon"]
+
+#friend list
+friend_list = ["beer","cookies","apples"]
+
+#create combined list
+combined_list = my_list + friend_list
+
+#sort alphabetically
+combined_list = combined_list.sort
+
+#remove repeats
+combined_list = combined_list.uniq
+puts "Shared List #{combined_list}"

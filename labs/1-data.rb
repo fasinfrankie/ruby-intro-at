@@ -20,3 +20,18 @@
 # "i would like " + 5 + " tacos"
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
+
+# roll dice 1
+dice1 = rand(1..6)
+puts dice1
+puts "Dice 1 #{dice1}"
+
+# role dice 2
+dice2 = rand(1..6)
+puts dice2
+puts "Dice 2 #{dice2}"
+
+# calculate the total
+total = dice1 + dice2
+puts "Total is: #{total}"
+
